@@ -105,97 +105,135 @@ img{
 .ubicacion{
     align-items: center;
     justify-content: center;
-    height: 50vh;
-    width: 50vh;
+    height: 150vh;
+    width: 150vh;
     margin-top: -150px;
 } 
 .ubicacion img{
     height: 20vh;
     width: 20vh;
 }
-.ubicacion .imgubi ul{
+.ubicacion .imgubi{
     text-decoration: none;
-    list-style-type: none;
 }
-.clima{
-    padding-left: 45%;
-    margin-top: -290px;
+.ubicacion .clima{
+    padding-left: 50%;
+    margin-top: -245px;
     min-height: 100vh;
     min-width: 120vh;
 }
-.clima img{
+.ubicacion .clima img{
     height: 12vh;
     width: 15vh;  
 }
-.clima p{
+.ubicacion .clima p{
     margin-top: 25px;
     opacity: 0.5;
     margin-left: -20%;
 }
 @media (max-width:425px){
-    .clima p{
+    .ubicacion .clima p{
         margin-top: 38px;
         opacity: 0.5;
         margin-left: -20%;
     }
-    .clima{
+    .ubicacion .clima{
         padding-left: 45%;
-        margin-top: -320px;
+        margin-top: -340px;
         min-height: 100vh;
         min-width: 120vh;
     }
 }
 @media only screen and (min-width: 1920px) and (max-width: 1920px){
-    .clima p{
-        margin-top: 18px;
-        opacity: 0.5;
-        margin-left: -10%;
-    }
-    .clima{
-        padding-left: 45%;
-        margin-top: -550px;
-        min-height: 100vh;
-        min-width: 120vh;
-    }
     .ubicacion{
         align-items: center;
         justify-content: center;
-        height: 50vh;
-        width: 50vh;
+        height: 150vh;
+        width: 150vh;
         margin-top: -150px;
     } 
     .ubicacion img{
-        height: 15vh;
-        width: 15vh;
+        height: 20vh;
+        width: 20vh;
     }
     .ubicacion .imgubi{
         text-decoration: none;
+    }
+    .ubicacion .clima{
+        padding-left: 50%;
+        margin-top: -245px;
+        min-height: 100vh;
+        min-width: 120vh;
+    }
+    .ubicacion .clima img{
+        height: 12vh;
+        width: 15vh;  
+    }
+    .ubicacion .clima p{
+        margin-top: 25px;
+        opacity: 0.5;
+        margin-left: -20%;
     } 
 }
 @media only screen and (min-width: 1680px) and (max-width: 1680px){
-    .clima p{
-        margin-top: 18px;
-        opacity: 0.5;
-        margin-left: -10%;
-    }
-    .clima{
-        padding-left: 45%;
-        margin-top: -530px;
-        min-height: 100vh;
-        min-width: 120vh;
-    } 
     .ubicacion{
         align-items: center;
         justify-content: center;
-        height: 50vh;
-        width: 50vh;
+        height: 150vh;
+        width: 150vh;
         margin-top: -150px;
     } 
     .ubicacion img{
-        height: 15vh;
-        width: 15vh;
+        height: 20vh;
+        width: 20vh;
     }
     .ubicacion .imgubi{
         text-decoration: none;
+    }
+    .ubicacion .clima{
+        padding-left: 50%;
+        margin-top: -245px;
+        min-height: 100vh;
+        min-width: 120vh;
+    }
+    .ubicacion .clima img{
+        height: 12vh;
+        width: 15vh;  
+    }
+    .ubicacion .clima p{
+        margin-top: 9px;
+        opacity: 0.5;
+        margin-left: -20%;
+    }
+}
+@media only screen and (min-width: 1366px) and (max-width: 1366px){
+    .ubicacion{
+        align-items: center;
+        justify-content: center;
+        height: 150vh;
+        width: 150vh;
+        margin-top: -150px;
+    } 
+    .ubicacion img{
+        height: 20vh;
+        width: 20vh;
+    }
+    .ubicacion .imgubi{
+        text-decoration: none;
+    }
+    .ubicacion .clima{
+        padding-left: 50%;
+        margin-top: -150px;
+        min-height: 100vh;
+        min-width: 120vh;
+    }
+    .ubicacion .clima img{
+        height: 12vh;
+        width: 15vh;  
+    }
+    .ubicacion .clima p{
+        margin-top: 25px;
+        opacity: 0.5;
+        margin-left: -20%;
     }
 }
